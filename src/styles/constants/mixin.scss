@@ -1,0 +1,14 @@
+@mixin background-compagnie($url, $color: $white) {
+  background-image: linear-gradient(
+      rgba(196, 195, 195, 0.774),
+      rgba(255, 255, 255, 0.178)
+    ),
+    url($url);
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover !important;
+  -o-background-size: cover;
+  background-size: cover !important;
+}

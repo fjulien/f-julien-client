@@ -1,0 +1,58 @@
+@import "./mixin.scss";
+.background {
+  &-dotic {
+    @include background-compagnie("/images/companies-background/dotic.jpg");
+  }
+
+  &-cgi {
+    @include background-compagnie("/images/companies-background/cgi.jpg");
+  }
+  &-wildcodeschool {
+    @include background-compagnie(
+      "/images/companies-background/wild-code-school.jpg"
+    );
+  }
+
+  &-mrg {
+    @include background-compagnie("/images/companies-background/mrg.jpeg");
+  }
+
+  &-ravimo-shark {
+    @include background-compagnie(
+      "/images/companies-background/ravimo-shark.jpg",
+      $black
+    );
+  }
+
+  &-batelec {
+    @include background-compagnie("/images/companies-background/batelec.jpg");
+  }
+
+  &-leclo {
+    @include background-compagnie("/images/companies-background/leclo.jpg");
+  }
+
+  &-huron {
+    @include background-compagnie("/images/companies-background/huron.jpg");
+  }
+
+  &-aforp {
+    @include background-compagnie("/images/companies-background/aforp.jpg");
+  }
+
+  &-nordique-france {
+    @include background-compagnie(
+      "/images/companies-background/nordique-france.jpg"
+    );
+  }
+
+  &-college {
+    @include background-compagnie("/images/companies-background/college.jpg");
+  }
+
+  &-my-projects {
+    @include background-compagnie(
+      "/images/companies-background/my-projects.jpg"
+    );
+  }
+}

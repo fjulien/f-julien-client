@@ -1,0 +1,17 @@
+@import "./constants/color.scss";
+@import "./constants/mixin.scss";
+@import "./styles/constants/size.scss";
+
+.time-line {
+  .ant-timeline-item-label {
+    font-size: 2em;
+    text-shadow: 1px 1px 1px $grey;
+  }
+  .ant-timeline-item-head {
+    display: none;
+  }
+  .ant-timeline-item,
+  .ant-timeline-item-label {
+    padding-top: 15px;
+  }
+}

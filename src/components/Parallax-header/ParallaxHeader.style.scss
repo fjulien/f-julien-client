@@ -1,0 +1,23 @@
+.ParallaxHeader {
+  /* The image used */
+  // background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 80vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .ant-card {
+    width: 50vw !important;
+    margin-top: 10%;
+    padding: 2em;
+    text-align: center;
+
+    .ant-card-cover {
+        margin: 50px;
+    }
+  }
+}

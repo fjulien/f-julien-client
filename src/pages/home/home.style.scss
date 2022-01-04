@@ -1,0 +1,14 @@
+@import "../../styles/constants/color.scss";
+
+.home {
+  .ant-row:nth-child(even) {
+    background-color: $orange-2;
+  }
+  .ant-row:nth-child(odd) {
+    background-color: $purple-2;
+  }
+
+  img {
+    padding: 20vh 0;
+  }
+}

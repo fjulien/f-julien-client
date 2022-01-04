@@ -1,0 +1,15 @@
+@import "./styles/constants/color.scss";
+
+.ant-btn.ant-btn-primary {
+  background-color: $yellow-1;
+  color: $black;
+  &:hover {
+    transform: rotate(0.01turn);
+  }
+}
+.ant-btn.ant-btn-secondary {
+  background-color: $purple-1;
+  &:hover {
+    background-color: $purple-1;
+  }
+}
